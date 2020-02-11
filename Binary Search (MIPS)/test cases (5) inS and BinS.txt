@@ -1,0 +1,147 @@
+Alan Pfeil Insertion Sort and Binary Search MIPS Test Cases (5):
+- TEST CASE 1 -
+
+Enter size of list (between 1 and 25): 5
+Enter one list element: 
+1
+Enter one list element: 
+3
+Enter one list element: 
+5
+Enter one list element: 
+7
+Enter one list element: 
+2
+Content of original list: 1 3 5 7 2 
+Content of sorted list: 1 2 3 5 7 
+Enter a key to search for: 5
+Key found!
+-- program is finished running --
+
+- TEST CASE 2 -
+
+Enter size of list (between 1 and 25): 15
+Enter one list element: 
+1
+Enter one list element: 
+1
+Enter one list element: 
+1
+Enter one list element: 
+4
+Enter one list element: 
+4
+Enter one list element: 
+2
+Enter one list element: 
+3
+Enter one list element: 
+4
+Enter one list element: 
+5
+Enter one list element: 
+6
+Enter one list element: 
+3
+Enter one list element: 
+4
+Enter one list element: 
+5
+Enter one list element: 
+9
+Enter one list element: 
+1
+Content of original list: 1 1 1 4 4 2 3 4 5 6 3 4 5 9 1 
+Content of sorted list: 1 1 1 1 2 3 3 4 4 4 4 5 5 6 9 
+Enter a key to search for: 7
+Key not found!
+-- program is finished running --
+
+- TEST CASE 3 -
+
+Enter size of list (between 1 and 25): 1
+Enter one list element: 
+5
+Content of original list: 5 
+Content of sorted list: 5 
+Enter a key to search for: 0
+Key not found!
+-- program is finished running --
+
+- TEST CASE 4 - 
+
+Enter a key to search for: Enter size of list (between 1 and 25): 5
+Enter one list element: 
+9
+Enter one list element: 
+8
+Enter one list element: 
+1
+Enter one list element: 
+0
+Enter one list element: 
+0
+Content of original list: 9 8 1 0 0 
+Content of sorted list: 0 0 1 8 9 
+Enter a key to search for: 9
+Key found!
+-- program is finished running --
+
+- TEST CASE 5 -
+
+Enter size of list (between 1 and 25): 25
+Enter one list element: 
+1
+Enter one list element: 
+2
+Enter one list element: 
+3
+Enter one list element: 
+4
+Enter one list element: 
+5
+Enter one list element: 
+3
+Enter one list element: 
+4
+Enter one list element: 
+5
+Enter one list element: 
+6
+Enter one list element: 
+4
+Enter one list element: 
+5
+Enter one list element: 
+6
+Enter one list element: 
+9
+Enter one list element: 
+9
+Enter one list element: 
+9
+Enter one list element: 
+9
+Enter one list element: 
+9
+Enter one list element: 
+8
+Enter one list element: 
+4
+Enter one list element: 
+5
+Enter one list element: 
+3
+Enter one list element: 
+4
+Enter one list element: 
+7
+Enter one list element: 
+8
+Enter one list element: 
+5
+Content of original list: 1 2 3 4 5 3 4 5 6 4 5 6 9 9 9 9 9 8 4 5 3 4 7 8 5 
+Content of sorted list: 1 2 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 7 8 8 9 9 9 9 9 
+Enter a key to search for: 3
+Key found!
+-- program is finished running --

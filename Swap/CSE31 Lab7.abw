@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="9" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Fri Apr 13 11:29:11 2018
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.date">Fri Apr  6 15:04:28 2018
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="3" edit-time="3084" last-saved="1523644151" uid="6795a7ec-39e1-11e8-80f8-f594fa8e4d68">
+<version id="1" started="1523052268" uid="79ce70ce-39e6-11e8-80f8-f594fa8e4d68" auto="0" top-xid="5"/>
+<version id="3" started="1523643331" uid="8f80e6ec-3f48-11e8-8907-d41aeeec9a18" auto="0" top-xid="5"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; bgcolor:transparent; widows:2; font-style:normal; text-indent:0in; text-position:normal; margin-bottom:0pt; font-weight:normal; line-height:1.0; text-align:left; font-variant:normal; text-decoration:none; margin-right:0pt; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="2" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="3" props="text-align:center">CSE 31 Lab#7 Questions - Alan Pfeil<c></c></p>
+<p style="Normal" xid="1" props="text-align:left">Q1) The programmer might not notice this because the address that $t0 uses might be invalid or valid by chance when loading from $t0. Thus, whenever the address IS valid from the stack, the output will be: 27 14, but then again, in another iteration, it will fail when the address is invalid.</p>
+<p style="Normal" xid="6" props="text-align:left"><c></c></p>
+<p style="Normal" xid="7" props="text-align:left">Q2) When proc is called, it will add the value “0“ to the stack. Once popped and stack2.s is called, int* temp (or just temp) will take “0“ as the address, and “0“ is a known invalid address. Therefore, when int* temp is not initialized, swap2.s will always fail.</p>
+<p style="Normal" xid="8" props="text-align:left"><c></c></p>
+<p style="Normal" xid="9" props="text-align:left"><c></c></p>
+</section>
+</abiword>
